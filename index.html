@@ -1,0 +1,12 @@
+CREATE TABLE bikes (id INTEGER PRIMARY KEY, name TEXT, color TEXT, price INTEGER, variety TEXT, wheel_size INTEGER);
+INSERT INTO bikes VALUES (1, "Bike1", "Red", 30, "Mountain", 28);
+INSERT INTO bikes VALUES (2, "Bike2", "Blue", 40, "Mountain", 34);
+INSERT INTO bikes VALUES (3, "Bike3", "Green", 50, "Mountain", 33);
+INSERT INTO bikes VALUES (4, "Bike4", "Purple", 60, "Mountain", 31);
+INSERT INTO bikes VALUES (5, "Bike5", "Orange", 70, "Mountain", 32);
+INSERT INTO bikes VALUES (6, "Bike6", "Pink", 75, "Mountain", 26);
+INSERT INTO bikes VALUES (7, "Bike7", "Black", 23, "Mountain", 25);
+INSERT INTO bikes VALUES (9, "Bike9", "Peach", 37, "Mountain", 24);
+INSERT INTO bikes VALUES (10, "Bike10", "Salmon", 29, "Mountain", 23);
+SELECT * FROM bikes ORDER BY price;
+SELECT MAX(price) FROM bikes;
