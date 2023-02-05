@@ -1,0 +1,1 @@
+-- This is my progression in learning SQL, with the Khan Academy Intro to SQL course --
